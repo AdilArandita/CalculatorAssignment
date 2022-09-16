@@ -1,0 +1,74 @@
+#container{
+	max-width: 360px;
+	margin: 20px auto;
+	font-family: sans-serif;
+	overflow: hidden;
+	user-select: none;
+}
+
+body{
+	background-image: url('img/town.jpg');
+}
+
+
+#display{
+	width: 100%;
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+}
+
+#display-calc{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin: 5px 25px;
+}
+
+#displayproses{
+	font-size: 40px;
+	transition: all 0.5s;
+}
+
+#display-result{
+	font-size: 30px;
+	color: white;
+	transition: all 0.5s;
+}
+
+.main{
+	background-color: black ;
+	color: white;
+	width: 270px;
+	text-align: center;
+	height: auto;
+	padding: 10px;
+	border-width: 5px red;
+	border-radius: 15px;
+	margin-top: 50px;
+	margin: auto;
+	border: 5px solid red;
+}
+
+.main:hover{
+	width: 320px;
+	height: 500px;
+	transition: 2s;
+}
+
+.btn{
+	height: auto;
+	color: red !important;
+	margin-left: 1rem !important;
+}
+
+.display-result-full{
+	font-size: 40px !important;
+	color: white; !important;
+}
+
+.afters{
+	color: #444;
+	font-size: 30px !important;
+}

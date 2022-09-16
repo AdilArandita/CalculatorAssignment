@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calc Project</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+
+	<div id="container">
+		<div class="row">
+			<div class="col-md-12">
+				<form action="#" name="calculator" class="main">
+					<div id="display">
+						<div id="display-calc">
+							<div id="displayproses"></div>
+							<div id="display-result"></div>
+						</div>
+					</div>
+
+					<div id="tombol">
+						<input id="reset" onclick="sapu(event)" class="btn" type="button" value="C">
+						<input id="hapus" onclick="hapusreset(event)" class="btn ml-3" type="button" value="<">
+					<input onclick="prosess('%', event)" class="btn ml-3" type="button" value="%">
+					<input onclick="prosess('/', event)" class="btn ml-3" type="button" value="/"><br><br>
+					<input onclick="prosess('7', event)" class="btn" type="button" value="7">
+					<input onclick="prosess('8', event)" class="btn ml-3" type="button" value="8">
+					<input onclick="prosess('9', event)" class="btn ml-3" type="button" value="9">
+					<input onclick="prosess('*', event)" class="btn ml-3" type="button" value="*"><br><br>
+					<input onclick="prosess('6', event)" class="btn" type="button" value="6">
+					<input onclick="prosess('5', event)" class="btn ml-3" type="button" value="5">
+					<input onclick="prosess('4', event)" class="btn ml-3" type="button" value="4">
+					<input onclick="prosess('-', event)" class="btn ml-3" type="button" value="-"><br><br>
+					<input onclick="prosess('3', event)" class="btn" type="button" value="3">
+					<input onclick="prosess('2', event)" class="btn ml-3" type="button" value="2">
+					<input onclick="prosess('1', event)" class="btn ml-3" type="button" value="1">
+					<input onclick="prosess('+', event)" class="btn ml-3" type="button" value="+"><br><br>
+					<input onclick="prosess('0', event)" class="btn" type="button" value="0">
+					<input onclick="prosess('.', event)" class="btn ml-3" type="button" value=".">
+					<input onclick="selesai('=', event)" class="btn ml-3" type="button" value="=">
+					</div>
+
+					
+
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+<script src="main.js"></script>
+<script type="text/javascript" href="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
